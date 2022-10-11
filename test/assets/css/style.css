@@ -1,0 +1,114 @@
+
+/*index*/
+
+html {
+    background: rgb(119, 0, 255);
+ 
+}
+ 
+#jardi {
+
+width: 18rem;
+
+  
+}
+
+.jdt {
+    display: grid;
+    grid-template-columns: 1fr 50%; 
+
+}
+
+
+/*texte tout le jardin  */
+
+#tlj { 
+font-size: 30px;
+text-align: start;
+color: orange;
+}
+
+
+#promo {
+margin-top: 5px;
+    width: 100%;
+}
+
+.nav2 {
+    height: 4rem;
+    background-color: black;
+
+}
+
+.nav3 {
+display: flex;
+}
+
+.nav3 ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    list-style-type: none;
+}
+
+.liens {
+    display: inline-block;
+    justify-content: flex-start;
+    color: rgb(255, 102, 0);
+    margin: 0 10px;
+}
+
+.texte {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0.7rem;
+    
+}
+
+.texte2 {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    max-height: 150rem;
+    align-items: flex-start;
+}
+
+.texte .accueil
+{
+    font-size: 2.5rem;
+
+}
+.texte .para {
+    font-size: 1rem;
+    line-height: 1cm;
+
+}
+
+
+.colone {
+    font-weight: bold;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    height: 100%
+   
+}
+
+
+.lien { /* couleurs texte liens bas de page */
+    display: flex;
+    color:  rgb(0, 255, 0);
+    display: inline-block;
+    margin: 0 10px;
+  
+}
+
+
+footer .contain2 .n4v {
+display: flex;
+background-color: black;
+width: 97.9%;
+height: 4rem;
+list-style-type: none;
+ 
+}
+
