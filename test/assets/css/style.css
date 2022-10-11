@@ -112,3 +112,36 @@ list-style-type: none;
  
 }
 
+
+
+#pump {
+width: 100%;
+
+        
+}
+
+
+/* trucs qui sert à rien */
+
+.hallow {
+    margin-left: 50px;
+  width: 200px;
+  height: 200px;
+
+  animation-name: moveRight ;
+  animation-direction: alternate;
+  Animation-delay : 2s;
+  Animation-duration : 2s;
+  Animation-iteration-count : infinite ;
+
+
+}
+
+@keyframes moveRight {
+    From {
+        transform: translateX(0);
+    }
+    To {
+        transform: translateX(95rem);
+    }
+  }
