@@ -99,7 +99,6 @@ hr {
 
 
 .colone {
-
     border-radius: 1rem;
     background-color: rgb(153, 153, 153);
     text-align:center;
@@ -122,8 +121,6 @@ list-style-type: none;
  
 }
 
-
-
 .conta ul{
     display: flex;
 }
@@ -132,7 +129,6 @@ list-style-type: none;
 
 #pump {
     width: 8.3rem;
-
 }
 
 .hallow {

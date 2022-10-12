@@ -1,0 +1,21 @@
+/*index*/
+
+html {
+    background: rgb(119, 0, 255);
+ 
+}
+
+.liencolor {
+    color: white;
+}
+
+li {
+    list-style-type: none;  /* supprime les pti points */
+}
+
+.barnoir {
+    background-color: black;
+    height: 4rem;
+   text-align: start
+
+}
