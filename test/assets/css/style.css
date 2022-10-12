@@ -7,9 +7,7 @@ html {
 }
  
 #jardi {
-
 width: 18rem;
-
   
 }
 
@@ -46,14 +44,12 @@ display: flex;
 
 .nav3 ul {
     display: flex;
-    justify-content: flex-start;
     width: 100%;
     list-style-type: none;
 }
 
 .liens {
     display: inline-block;
-    justify-content: flex-start;
     color: rgb(255, 102, 0);
     margin: 0 10px;
 }
@@ -86,25 +82,21 @@ display: flex;
 
 
 .colone {
-    font-weight: bold;
     background-color: rgb(153, 153, 153);
     width: 100%;
     height: 100%
-   
 }
 
 
 .lien { /* couleurs texte liens bas de page */
     display: flex;
     color:  rgb(0, 255, 0);
-    display: inline-block;
     margin: 0 10px;
   
 }
 
 
-footer .contain2 .n4v {
-display: flex;
+footer .n4v {
 background-color: black;
 width: 97.9%;
 height: 4rem;
@@ -112,26 +104,29 @@ list-style-type: none;
  
 }
 
-
-
-#pump {
-width: 100%;
-
-        
+.lien {
+    
 }
 
+.conta ul{
+    display: flex;
+}
 
-/* trucs qui sert à rien */
+/* trucs qui sert à rien___________________________________________________________________*/
+
+#pump {
+    width: 10rem;
+}
 
 .hallow {
-    margin-left: 50px;
-  width: 200px;
-  height: 200px;
+    margin-left: 2rem;
+    width: 200px;
+    height: 200px;
 
   animation-name: moveRight ;
   animation-direction: alternate;
-  Animation-delay : 2s;
-  Animation-duration : 2s;
+  Animation-delay : 7s;
+  Animation-duration : 7s;
   Animation-iteration-count : infinite ;
 
 
@@ -142,6 +137,6 @@ width: 100%;
         transform: translateX(0);
     }
     To {
-        transform: translateX(95rem);
+        transform: translateX(100rem);
     }
   }
