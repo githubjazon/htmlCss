@@ -1,0 +1,31 @@
+/*index*/
+
+html {
+    background: rgb(119, 0, 255);
+ 
+}
+
+.jrdt {
+
+    width: 18rem;
+}
+
+.barnoir {
+    background-color: black;
+    height: 4rem;
+   text-align: start
+
+}
+
+li {
+    list-style-type: none;  /* supprime les pti points */
+}
+
+.liencolor {
+    color: white;
+}
+
+.promo {
+    margin-top: 8px;
+    width: 100%;
+}
