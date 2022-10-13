@@ -6,26 +6,33 @@ html {
 }
 
 .jrdt {
-
     width: 18rem;
 }
 
 .barnoir {
     background-color: black;
     height: 4rem;
-   text-align: start
+    border-radius: 1rem;
 
 }
 
 li {
     list-style-type: none;  /* supprime les pti points */
+    margin-top: 1.1rem; 
+    margin-inline: 1rem;
 }
 
+ul {
+display: flex;
+}
+
+
 .liencolor {
-    color: white;
+    color: rgb(255, 102, 0);
 }
 
 .promo {
-    margin-top: 8px;
+    border-radius: 1rem;
+    margin-top: 1rem;
     width: 100%;
 }
