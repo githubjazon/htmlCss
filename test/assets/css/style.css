@@ -5,24 +5,32 @@ html {
 }
 
 #jardi {
-
     width: 18rem;
+}
 
+#jardi {}
 
+#jardi:hover {
+    transition: 0.5s;
+    filter: saturate(270%);
 }
 
 .jdt {
     display: grid;
-    grid-template-columns: 1fr 49%;
+    grid-template-columns: 1fr 50%;
 }
 
 
-/*texte tout le jardin  */
 
 .tlj {
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 2.2rem;
+    color: blueviolet;
 
+}
+
+.tlj:hover {
+    filter: saturate(200%);
 }
 
 
@@ -33,11 +41,12 @@ html {
     width: 100%;
 }
 
-#promo {
-    animation-duration: 10s;
-    animation-name: clignoter;
-    animation-iteration-count: infinite;
-    transition: none;
+#promo:hover {
+
+    transition: 0.7s;
+    border-radius: 10rem;
+    filter: saturate(150%);
+
 }
 
 
@@ -52,6 +61,12 @@ html {
     margin-inline: 1rem;
     color: rgb(255, 102, 0);
 
+}
+
+.liens:hover {
+    font-size: 2rem;
+    transition: 0.3s;
+    color: blueviolet;
 }
 
 .accueil {
@@ -89,13 +104,17 @@ section {
 
 .colone {
 
-
     border-radius: 1rem;
-    background-color: rgb(133, 133, 133, 0.7);
+    background-color: rgb(133, 133, 133, 0.5);
     width: 30%;
     height: 40rem;
-
 }
+
+.colone:hover {
+    background-color: rgb(133, 133, 133, 1);
+}
+
+
 
 .textecolonne {
 
@@ -116,11 +135,20 @@ li {
 
 
 #pump {
+    transition: 2s;
     margin-top: 4rem;
     width: 10rem;
+
+}
+
+#pump:hover {
+    transition: 0.5s;
+    filter: invert();
+
 }
 
 .hallow {
+
     margin-left: 2rem;
     width: 200px;
     height: 200px;

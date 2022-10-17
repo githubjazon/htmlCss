@@ -27,7 +27,7 @@
     <form action="http://bienvu.net/script.php" method="get" id="formulaire_contact">
         <p>* Ces zones sont obligatoires</p>
         <br>
-        <fieldset>
+        <fieldset class="coord">
             <legend>Vos Coordonnées</legend>
             <label for="nom">Votre nom* : <input type="text" name="nom" id="nom"></label><br>
             <label for="prenom">Votre prénom* : <input type="text" name="prenom" id="prenom"></label><br>
@@ -46,7 +46,7 @@
             <br>
         </fieldset><br>
         <br>
-        <fieldset>
+        <fieldset class="coord">
             <legend>Votre demande</legend>
             <label for="sujet">Sujet* :</label>
             <select id="sujet">
@@ -64,8 +64,8 @@
         <input type="checkbox" name="consentement" value="#"> * J'accepte le traitement informatique de ce formulaire
         <br>
         <br>
-        <button type="submit">Envoyer</button>
-        <button type="submit">Annuler</button>
+        <button class="bouton" type="submit">Envoyer</button>
+        <button class="bouton" type="reset">Annuler</button>
     </form>
 
     <footer class="barnoir">
