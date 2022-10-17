@@ -1,30 +1,13 @@
-let total = 0;
 
-function addition(x) {
-    total += x;
-    return total;
-}
 
-function soustraction(x) {
-    total -= x;
-    return total;
-}
+var reponse1 = window.prompt("Saisissez votre nom");
+var reponse2 = window.prompt("Saisissez votre prénom");
 
-function division(x) {
-    if (total === 0) {
-        return (total = x);
-    } else {
-        total /= x;
-        return total;
+if (window.confirm("Etes-vous un Homme ?") == true)
+
+    if (window.confirm("Vraiment ?") == true) {
+        function change() {
+
+        }
     }
 
-}
-function multiplication(x) {
-    if (total === 0) {
-        return (total = x);
-    } else {
-        total *= x;
-        return total;
-    }
-
-}

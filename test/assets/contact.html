@@ -1,76 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/test/assets/css/stylecontact.css">
     <title>contact</title>
 </head>
 
 <body>
-    <img src="jdt.png"  alt="jarditou" title="jarditou" class="jrdt">
-  
+    <a href="index.html"><img src="jdt.png" alt="jarditou" title="revenir a l'accueil" class="jrdt">
+    </a>
+
     <nav class="barnoir">
         <ul>
-            <li><a class="liencolor" href="index.html">Accueil</a></li>   
-            <li><a class="liencolor" href="tableau.html">Tableau</a></li> 
-            <li><a class="liencolor" href="contact.html">Contact</a></li> 
+            <li><a class="liencolor" href="index.html">Accueil</a></li>
+            <li><a class="liencolor" href="tableau.html">Tableau</a></li>
+            <li><a class="liencolor" href="contact.html">Contact</a></li>
         </ul>
     </nav>
-<img src="promotion.jpg" alt="promotion" title="promotion" class="promo">
+    <img src="promotion.jpg" alt="promotion" title="promotion" class="promo">
     <h1>Contact</h1>
-        <hr>
+    <hr>
 
-  <form action="http://bienvu.net/script.php" method="get" id="formulaire_contact"> 
-            <p>* Ces zones sont obligatoires</p>
-            <br>
+    <form action="http://bienvu.net/script.php" method="get" id="formulaire_contact">
+        <p>* Ces zones sont obligatoires</p>
+        <br>
         <fieldset>
-        <legend>Vos Coordonnées</legend>
-             <label for="nom">Votre nom* : <input type="text" name="nom" id="nom"></label><br>
-             <label for="prenom">Votre prénom* : <input type="text" name="prenom" id="prenom"></label><br>
-        <br>
-       
-        <p>sexe* : </p>     
-                        <label for="genre"></label><input type="radio" name="genre" value="féminin" id="genre"> Féminin
-                        <label for="genre2"></label><input type="radio" name="genre2" value="Masculin" id="genre2"> Masculin <br>
-        <br>
+            <legend>Vos Coordonnées</legend>
+            <label for="nom">Votre nom* : <input type="text" name="nom" id="nom"></label><br>
+            <label for="prenom">Votre prénom* : <input type="text" name="prenom" id="prenom"></label><br>
+            <br>
+
+            <p>sexe* : </p>
+            <label for="genre"></label><input type="radio" name="genre" value="féminin" id="genre"> Féminin
+            <label for="genre2"></label><input type="radio" name="genre2" value="Masculin" id="genre2"> Masculin <br>
+            <br>
             <label for="date">Date de naissance : <input type="date" name="ddn" id="date"></label><br>
             <label for="cp">Code postal* : <input required type="text" name="nom" id="cp"></label><br>
             <label for="adresse">Adresse : <input type="text" name="adresse" id="adresse"></label><br>
-            <label for="ville">Ville :     <input type="text" name="ville" id="ville"></label><br>
-            <label for="mail">Email* :     <input type="text" name="mail" id="mail" size="20" maxlength="50" placeholder="dave.loper@afpa.fr"></label><br>
+            <label for="ville">Ville : <input type="text" name="ville" id="ville"></label><br>
+            <label for="mail">Email* : <input type="text" name="mail" id="mail" size="20" maxlength="50"
+                    placeholder="dave.loper@afpa.fr"></label><br>
+            <br>
+        </fieldset><br>
         <br>
-       </fieldset><br>
-       <br>
-       <fieldset>
-        <legend>Votre demande</legend>
+        <fieldset>
+            <legend>Votre demande</legend>
             <label for="sujet">Sujet* :</label>
-                <select id="sujet"> 
-                    <option value="selected" selected>Veuillez sélectionner un sujet</option>
-                    <option value="mcm">Mes commandes</option>
-                    <option value="ques">Question sur un produit</option>
-                    <option value="rec">Réclamation</option>
-                    <option value="autres">Autres</option>
-                 </select><br>
-<br>
-<label for="question">Votre question* :</label>
-    <textarea name="questions" id="question" cols="30" rows="2"></textarea>
- </fieldset>
-       <br>
-<input type="checkbox" name="consentement" value="#"> * J'accepte le traitement informatique de ce formulaire <br>
-<br>
-    <button type="submit">Envoyer</button>
-    <button type="submit">Annuler</button>
-</form>
+            <select id="sujet">
+                <option value="selected" selected>Veuillez sélectionner un sujet</option>
+                <option value="mcm">Mes commandes</option>
+                <option value="ques">Question sur un produit</option>
+                <option value="rec">Réclamation</option>
+                <option value="autres">Autres</option>
+            </select><br>
+            <br>
+            <label for="question">Votre question* :</label>
+            <textarea name="questions" id="question" cols="30" rows="2"></textarea>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="consentement" value="#"> * J'accepte le traitement informatique de ce formulaire
+        <br>
+        <br>
+        <button type="submit">Envoyer</button>
+        <button type="submit">Annuler</button>
+    </form>
 
     <footer class="barnoir">
-     
-            <ul>
-                <li><a class="liencolor" href="#">Mentions légales</a></li>   
-                <li><a  class="liencolor" href="#">Horaires</a></li> 
-                <li><a  class="liencolor" href="#">Plan du site</a></li> 
-            </ul>
+
+        <ul>
+            <li><a class="liencolor" href="#">Mentions légales</a></li>
+            <li><a class="liencolor" href="#">Horaires</a></li>
+            <li><a class="liencolor" href="#">Plan du site</a></li>
+        </ul>
     </footer>
 </body>
+
 </html>

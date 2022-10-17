@@ -1,38 +1,45 @@
-
 /*index*/
 
-html  {
-    background: linear-gradient(rgb(231, 112, 0) 10%,  rgb(65, 177, 0) 50%, rgb(174, 0, 255)) 50%;
+html {
+    background: linear-gradient(rgb(231, 112, 0) 10%, rgb(65, 177, 0) 50%, rgb(174, 0, 255)) 50%;
 }
- 
-#jardi {
-    
-width: 18rem;
 
-  
+#jardi {
+
+    width: 18rem;
+
+
 }
 
 .jdt {
     display: grid;
-    grid-template-columns: 1fr 49%; 
+    grid-template-columns: 1fr 49%;
 }
 
 
 /*texte tout le jardin  */
 
-.tlj { 
+.tlj {
     font-size: 2rem;
     color: rgb(0, 0, 0);
+
 }
 
 
 #promo {
-   
-    border-radius:1em;
+    border-radius: 1em;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
 }
+
+#promo {
+    animation-duration: 10s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
 
 .barnoir {
     background-color: black;
@@ -44,11 +51,10 @@ width: 18rem;
 .liens {
     margin-inline: 1rem;
     color: rgb(255, 102, 0);
-    
+
 }
 
-.accueil
-{
+.accueil {
     font-size: 2.5rem;
 
 }
@@ -58,41 +64,52 @@ hr {
     width: 99.5%;
     height: 2rem;
     border: 0;
-    height: 0; 
-    box-shadow: 0 0 7px 1px rgb(0, 0, 0) 
+    height: 0;
+    box-shadow: 0 0 7px 1px rgb(0, 0, 0)
 }
 
- 
+
 
 
 .para {
     font-size: 1rem;
     line-height: 1cm;
+
 }
 
-section{
+.toutletexte {
+    width: 70%;
+}
+
+
+section {
     display: flex;
-  
+
 }
+
 .colone {
-   
-    border-radius: 3px;
-    background-color: rgb(133, 133, 133);
-    width: 30rem;
+
+
+    border-radius: 1rem;
+    background-color: rgb(133, 133, 133, 0.7);
+    width: 30%;
     height: 40rem;
-  
-  
-  
+
 }
 
+.textecolonne {
 
-ul{
-display: flex;
-list-style-type: none;
+    margin-left: 4%;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
 }
 
 li {
-    margin-top: 1.1rem; 
+    margin-top: 1.1rem;
 }
 
 /* trucs qui sert à rien___________________________________________________________________*/
@@ -104,15 +121,15 @@ li {
 }
 
 .hallow {
-  margin-left: 2rem;
-  width: 200px;
-  height: 200px;
-  animation-name: moveRight;
-  animation-direction: alternate;
-  Animation-delay : 0s;
-  Animation-duration : 5s;
-  Animation-iteration-count : infinite ;
-  animation-timing-function: ease-out;
+    margin-left: 2rem;
+    width: 200px;
+    height: 200px;
+    animation-name: moveRight;
+    animation-direction: alternate;
+    Animation-delay: 0s;
+    Animation-duration: 5s;
+    Animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 
 
 }
@@ -121,17 +138,17 @@ li {
     From {
         transform: translateX(0);
     }
+
     To {
         transform: translateX(100rem);
     }
-  }
+}
 
 
-  figure {
-display: none;
+figure {
+    display: none;
 }
 
 
 
-  /* trucs qui sert à rien___________________________________________________________________*/
-
+/* trucs qui sert à rien___________________________________________________________________*/
