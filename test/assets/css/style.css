@@ -1,5 +1,3 @@
-/*index*/
-
 html {
     background: linear-gradient(rgb(231, 112, 0) 10%, rgb(65, 177, 0) 50%, rgb(174, 0, 255)) 50%;
 }
@@ -7,8 +5,6 @@ html {
 #jardi {
     width: 18rem;
 }
-
-#jardi {}
 
 #jardi:hover {
     transition: 0.5s;
@@ -20,8 +16,6 @@ html {
     grid-template-columns: 1fr 50%;
 }
 
-
-
 .tlj {
     position: absolute;
     font-size: 2.2rem;
@@ -32,7 +26,6 @@ html {
 .tlj:hover {
     filter: saturate(200%);
 }
-
 
 #promo {
     border-radius: 1em;
@@ -83,9 +76,6 @@ hr {
     box-shadow: 0 0 7px 1px rgb(0, 0, 0)
 }
 
-
-
-
 .para {
     font-size: 1rem;
     line-height: 1cm;
@@ -96,17 +86,16 @@ hr {
     width: 70%;
 }
 
-
 section {
     display: flex;
 
 }
 
 .colone {
-
+    margin: auto;
+    width: 30%;
     border-radius: 1rem;
     background-color: rgb(133, 133, 133, 0.5);
-    width: 30%;
     height: 40rem;
 }
 
@@ -114,10 +103,7 @@ section {
     background-color: rgb(133, 133, 133, 1);
 }
 
-
-
 .textecolonne {
-
     margin-left: 4%;
 
 }
@@ -138,13 +124,11 @@ li {
     transition: 2s;
     margin-top: 4rem;
     width: 10rem;
-
 }
 
 #pump:hover {
     transition: 0.5s;
     filter: invert();
-
 }
 
 .hallow {
@@ -158,8 +142,6 @@ li {
     Animation-duration: 5s;
     Animation-iteration-count: infinite;
     animation-timing-function: ease-out;
-
-
 }
 
 @keyframes moveRight {
@@ -172,11 +154,22 @@ li {
     }
 }
 
-
-figure {
+@media screen and (max-width: 768px) {
+  
+.colone{
     display: none;
 }
 
+html{
+    font-size : smaller;
+ }
+
+ ul {
+    display: grid;
+
+ }
 
 
-/* trucs qui sert à rien___________________________________________________________________*/
+
+
+   }
