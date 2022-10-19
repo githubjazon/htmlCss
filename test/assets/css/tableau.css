@@ -42,8 +42,7 @@ hr {
 }
 
 .liencolor:hover {
-    font-size: 2rem;
-    transition: 0.3s;
+    transition: .4s;
     color: blueviolet;
 }
 
@@ -71,4 +70,32 @@ li {
     border-radius: 1rem;
     background-color: black;
     height: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    html{
+        transition: 1.5s;
+        font-size : small;
+        }
+    
+     ul {
+         margin-right: 7%;
+         transition: 1.5s;
+         text-align: center;
+         flex-direction: column;
+         padding-bottom: 1rem;
+        }
+    
+    .barnoir {
+         height: auto;
+        }
+
+
+
+
+
+
+
 }
