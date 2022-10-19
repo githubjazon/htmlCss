@@ -1,6 +1,10 @@
 html {
     background: linear-gradient(rgb(231, 112, 0) 10%, rgb(65, 177, 0) 50%, rgb(174, 0, 255)) 50%;
+    cursor: url(/test/assets/arrow.png), auto;
+   
 }
+
+
 
 #jardi {
     width: 18rem;
@@ -130,6 +134,7 @@ transition: 1.5s;
  }
 
  ul {
+    margin-right: 7%;
     transition: 1.5s;
     text-align: center;
     flex-direction: column;
@@ -142,9 +147,15 @@ transition: 1.5s;
   
  }
 
+.jardin{
+    align-items: center;
+}
+
 .tlj {
     transition: 1.5s;
     font-size: 16px;
+    margin: auto;
+   
 }
 
 .barnoir {
@@ -154,10 +165,7 @@ transition: 1.5s;
     height: 100%;
 }
 
-.liens:hover {
-  
-   
-}
+
 
 
    }
