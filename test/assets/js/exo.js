@@ -80,7 +80,19 @@
 
 // ____________________________________ EXERCICE 4 JAVASCRIPT____________________________________
 
+i = 1 ;
+a =("Saisissez le prénom N° ")
 
-a = ('1');
-b = prompt("Saisissez le prénom N° " + a);
-console.log(a + b);
+while(prompt (a + i) != " " ){
+    b = prompt(a+i);
+    console.log(b);
+    i++;
+ 
+}
+
+
+
+
+
+
+
