@@ -102,16 +102,16 @@
 //   document.write(nbre+' ');
 // }
 
-// ____________________________________ Exo js 08.3___________________________________
+// ____________________________________ Exo js 08.3___________________________________ PAS FINI BORDEL
 
 
-// document.write(" Programme qui saisit des entiers et en affiche la somme et la moyenne. <br> <br>");
+// document.write(" Programme qui saisit des entiers et bla bla bla. <br> <br>");
 // var nbre = 0;
 // for(i=1; i<=10; i++)
 // {
-    //   nbre = i;
-    //   document.write(nbre+' ');
-    // }
+//       nbre = i;
+//       document.write(nbre+' ');
+//     }
     
     
     // ____________________________________ Exo js 08.4___________________________________
@@ -124,27 +124,47 @@
     
     // ____________________________________ Exo js 08.5___________________________________
     
-    
-    
-    // while (long = prompt("Saisir quelque chose pour connaître le nombre de caractères ")) {
-    //     alert("Nombre de caractères : " + long.length);
-    
-    // }
-    
+  
+//     function copierCollerLâchement(mot) { 
+//       var voyelles = 0; 
+//       for(var i=0; i< mot.length; i++) {
+//            var lettres = mot[i].toLowerCase(); 
+//            if((lettres === "a") || (lettres === "e") || (lettres === "i") || (lettres === "o") || (lettres === "u") || (lettres === "y")) {
+//                 voyelles++;  
+//            }  
+//       }
+//       return "Le mot " + mot + " contient " + voyelles + " voyelles ";
+// }
 
+// var mot=prompt("Entrer le mot de votre choix");
+// alert(copierCollerLâchement(mot));
+// alert("Et il s'écrit en " + mot.length + " lettres.");
 
-    function getVowels(str) {
-        var vowelsCount = 0;
-        var string = str.toString();
+// window.location.reload();
+
+   // ____________________________________ Exo js 09.1___________________________________
+
  
-        for (var i = 0; i <= string.length - 1; i++) {
-
-            
    
-          if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u"  || string.charAt(i) == "y") {
-            vowelsCount += 1;
-          }
-        }
-        return vowelsCount;
-      }
-      
+ 
+
+
+nb = prompt("Entrer un nombre ");
+mult = prompt("Entrer un multiplicateur");
+result = (nb * mult);
+document.getElementById("demo").innerHTML = html = "Le produit de " + nb +  " x " + mult +  " est égale à " + result;
+
+
+cube = (nb * nb * nb);
+document.getElementById("myP").innerHTML = "Le cube de " + nb + " est égale à " + cube;
+
+
+   // ____________________________________ Exo js 09.2___________________________________
+
+
+//    str1 = "robert ;dupont ;amiens ;80000";
+//    str2 = 
+
+//    function strtok(str1 , str2 , n) {
+// strtok(str1, ";", 3);
+//    }
