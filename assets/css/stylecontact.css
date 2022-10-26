@@ -106,41 +106,12 @@ html{
      height: auto;
     }
 
+    h1 {
+     text-align: center;   
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  label,.sexe{
+margin-left: 10%;
+  }
 
 }

@@ -1,6 +1,5 @@
 html {
     background: linear-gradient(rgb(231, 112, 0) 10%, rgb(65, 177, 0) 50%, rgb(174, 0, 255)) 50%;
-    cursor: url(/assets/arrow.png), auto;
    
 }
 
@@ -96,7 +95,7 @@ section {
 }
 
 .colone {
-    margin: auto;
+    margin-top:1rem ;
     width: 30%;
     border-radius: 1rem;
     background-color: rgb(133, 133, 133, 0.5);
@@ -164,8 +163,5 @@ transition: 1.5s;
     width: 100%;
     height: 100%;
 }
-
-
-
 
    }
